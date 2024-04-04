@@ -58,4 +58,5 @@ function draw_tip(argument0) {
         b = id
     }
 }
-
+window_set_fullscreen(true)
+window_enable_borderless_fullscreen(true)
