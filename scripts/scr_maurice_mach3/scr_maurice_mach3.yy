@@ -1,9 +1,9 @@
 {
   "$GMScript":"",
-  "%Name":"Script109",
+  "%Name":"scr_maurice_mach3",
   "isCompatibility":false,
   "isDnD":false,
-  "name":"Script109",
+  "name":"scr_maurice_mach3",
   "parent":{
     "name":"State Scripts",
     "path":"folders/Scripts/State Scripts.yy",
