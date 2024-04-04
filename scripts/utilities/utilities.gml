@@ -58,5 +58,12 @@ function draw_tip(argument0) {
         b = id
     }
 }
+function trace()
+{
+	var _string = "";
+	for (var i = 0; i < argument_count; i++)
+		_string += string(argument[i]);
+	show_debug_message(_string);
+}
 window_set_fullscreen(true)
 window_enable_borderless_fullscreen(true)

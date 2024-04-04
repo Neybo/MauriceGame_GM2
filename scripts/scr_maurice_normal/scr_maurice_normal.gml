@@ -12,6 +12,7 @@ image_speed = 0.4
 		}
 		if key_jump && grounded {
 			image_index = 0
+			scr_fmod_soundeffect("event:/sfx/pep/jump", x, y);
 			set_spr(spr_maurice_jump)
 			vsp = -11
 			state = "jump"
