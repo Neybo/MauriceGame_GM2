@@ -1,5 +1,6 @@
 // Kill yourself NOW!!!!
 function scr_maurice_normal(){
+image_speed = 0.4 
 		hsp = xscale * movespeed
 		if move != 0 {
 			xscale = move
