@@ -170,7 +170,7 @@
     {"name":"spr_unownSlope","order":5,"path":"sprites/spr_unownSlope/spr_unownSlope.yy",},
     {"name":"spr_unownSlopePlatform","order":6,"path":"sprites/spr_unownSlopePlatform/spr_unownSlopePlatform.yy",},
     {"name":"spr_unownSolid","order":7,"path":"sprites/spr_unownSolid/spr_unownSolid.yy",},
-    {"name":"spr_yeah","order":9,"path":"sprites/spr_yeah/spr_yeah.yy",},
+    {"name":"spr_clownmato_idle","order":9,"path":"sprites/spr_clownmato_idle/spr_clownmato_idle.yy",},
     {"name":"Sprite18","order":10,"path":"sprites/Sprite18/Sprite18.yy",},
   ],
 }

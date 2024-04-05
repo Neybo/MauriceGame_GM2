@@ -30,8 +30,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_yeah",
-    "path":"sprites/spr_yeah/spr_yeah.yy",
+    "name":"spr_clownmato_idle",
+    "path":"sprites/spr_clownmato_idle/spr_clownmato_idle.yy",
   },
   "spriteMaskId":null,
   "visible":true,
