@@ -1,4 +1,4 @@
-// Kill yourself NOW!!!!
+//whuh?_call
 exception_unhandled_handler(function(ex)
 {
     // Print some messages to the output log
@@ -28,6 +28,7 @@ function initKeys(){
 	key_left = keyboard_check(vk_left)
 	key_jump = keyboard_check(vk_z)
 	key_attack = keyboard_check(vk_x)
+	key_att2 = keyboard_check_pressed(vk_x)
 }
 
 function draw_reset() {
@@ -54,10 +55,13 @@ function draw_tip(argument0) {
     var b = -4
     with (instance_create(0, 0, obj_transfotip))
     {
-        text = argument0
+        event_user(1)
         b = id
     }
 }
+
+#macro img_ind floor(image_index)
+
 function trace()
 {
 	var _string = "";
@@ -65,5 +69,5 @@ function trace()
 		_string += string(argument[i]);
 	show_debug_message(_string);
 }
-window_set_fullscreen(true)
-window_enable_borderless_fullscreen(true)
+window_set_fullscreen(false)
+window_enable_borderless_fullscreen(false)

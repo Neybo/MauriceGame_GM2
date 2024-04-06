@@ -1,4 +1,4 @@
-// Kill yourself NOW!!!!
+//whuh?_call
 function scr_maurice_jump(){
 		hsp = xscale * movespeed
 		if move != 0 {

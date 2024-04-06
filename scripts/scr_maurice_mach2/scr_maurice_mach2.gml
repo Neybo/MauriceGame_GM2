@@ -1,4 +1,4 @@
-// Kill yourself NOW!!!!
+//whuh?_call
 function scr_maurice_mach2(){
 
 }

@@ -1,4 +1,4 @@
 show = true
 alpha = 0
-txt = "[shake]GYATT FUCKING RIZZLER"
+txt = ""
 alarm0 = 30
