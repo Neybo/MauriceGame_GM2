@@ -13,3 +13,4 @@ switch state {
 	case "mach3": scr_maurice_mach3() break
 	case "nickel": scr_maurice_nickel() break
 }
+scr_characterspr()

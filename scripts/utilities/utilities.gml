@@ -27,7 +27,7 @@ function initKeys(){
 	key_right = keyboard_check(vk_right)
 	key_left = keyboard_check(vk_left)
 	key_jump = keyboard_check(vk_z)
-	key_attack = keyboard_check(vk_x)
+	key_attack = keyboard_check(vk_shift)
 	key_att2 = keyboard_check_pressed(vk_x)
 }
 
@@ -69,5 +69,5 @@ function trace()
 		_string += string(argument[i]);
 	show_debug_message(_string);
 }
-window_set_fullscreen(false)
-window_enable_borderless_fullscreen(false)
+window_set_fullscreen(true)
+window_enable_borderless_fullscreen(true)

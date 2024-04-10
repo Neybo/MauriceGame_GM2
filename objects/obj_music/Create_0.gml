@@ -1,14 +1,2 @@
-secret = false;
-secretend = false;
-pillar_on_camera = false;
-prevpillar_on_camera = false;
-music_map = ds_map_create();
-music = noone;
-savedpillarpause = false;
-savedpanicpause = false;
-savedmusicpause = false;
-savedsecretpause = false;
-savedpanicpos = 0;
-savedmusicpos = 0;
-exitmusic = false;
-add_music(Room1, "event:/music/ending", noone, false);
+pausedmusic = 0
+fadeoff = 0
