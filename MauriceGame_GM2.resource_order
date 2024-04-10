@@ -183,6 +183,7 @@
     {"name":"spr_font","order":5,"path":"sprites/spr_font/spr_font.yy",},
     {"name":"spr_maurice_jump","order":1,"path":"sprites/spr_maurice_jump/spr_maurice_jump.yy",},
     {"name":"spr_maurice_mach2","order":5,"path":"sprites/spr_maurice_mach2/spr_maurice_mach2.yy",},
+    {"name":"spr_maurice_mach3","order":6,"path":"sprites/spr_maurice_mach3/spr_maurice_mach3.yy",},
     {"name":"spr_maurice_move","order":2,"path":"sprites/spr_maurice_move/spr_maurice_move.yy",},
     {"name":"spr_maurice_nickel1","order":3,"path":"sprites/spr_maurice_nickel1/spr_maurice_nickel1.yy",},
     {"name":"spr_maurice_nickel2","order":4,"path":"sprites/spr_maurice_nickel2/spr_maurice_nickel2.yy",},
