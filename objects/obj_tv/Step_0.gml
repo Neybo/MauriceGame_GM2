@@ -21,6 +21,8 @@ if (global.seconds > 59)
     global.minutes += 1
     global.seconds -= 59
 }
+if (global.seconds < 9)
+	global.seconds = string_concat("0", global.seconds);
 if (global.seconds <= 0 && global.minutes <= 0)
 {
     alarm[1] = -1

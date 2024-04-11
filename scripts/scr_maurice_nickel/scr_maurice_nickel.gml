@@ -1,10 +1,12 @@
 //whuh?_call
-function scr_maurice_nickel(){
+function scr_maurice_nickel()
+{
 	image_speed = 0.35
-	audio_play_sound(sfx_sack, 1, true)
-	instance_create(x,y,obj_nickelhitbox)
-	if img_ind == floor(image_number - 1){
-		state = "normal"
+	if (!instance_exists(obj_nickelhitbox))
+		instance_create(x,y,obj_nickelhitbox)
+	if (floor(image_index) == image_number - 1)
+	{
+		state = states.normal;
 		instance_destroy(obj_nickelhitbox)
 	}
 }

@@ -26,7 +26,7 @@
   "origin":9,
   "parent":{
     "name":"Maurice",
-    "path":"folders/Sprites/Maurice.yy",
+    "path":"folders/Sprites/Player/Maurice.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

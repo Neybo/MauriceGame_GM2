@@ -3,7 +3,7 @@ if (alarm[0] > 0)
 {
 	with (obj_player)
 	{
-		state = "normal";
+		state = states.normal;
 		hsp = 0;
 		vsp = 0;
 	}

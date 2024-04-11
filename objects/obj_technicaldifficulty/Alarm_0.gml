@@ -1,6 +1,6 @@
 with (obj_player)
 {
-	state = "normal";
+	state = states.normal;
 	visible = true;
 	x = xstart;
 	y = ystart;

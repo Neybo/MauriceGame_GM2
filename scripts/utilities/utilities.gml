@@ -17,20 +17,6 @@ exception_unhandled_handler(function(ex)
 
     return 0;
 }); 
-
-function initKeys(){
-	// macros
-	#macro vk_z ord("Z")
-	#macro vk_x ord("X")
-	#macro vk_c ord("C")
-	
-	key_right = keyboard_check(vk_right)
-	key_left = keyboard_check(vk_left)
-	key_jump = keyboard_check(vk_z)
-	key_attack = keyboard_check(vk_shift)
-	key_att2 = keyboard_check_pressed(vk_x)
-}
-
 function draw_reset() {
 	draw_set_alpha(1)
 	draw_set_color(c_white)
