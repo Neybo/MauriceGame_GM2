@@ -253,6 +253,6 @@
     {"name":"Sprite24","order":10,"path":"sprites/Sprite24/Sprite24.yy",},
     {"name":"Sprite25","order":11,"path":"sprites/Sprite25/Sprite25.yy",},
     {"name":"Sprite26","order":12,"path":"sprites/Sprite26/Sprite26.yy",},
-    {"name":"Sprite32","order":17,"path":"sprites/Sprite32/Sprite32.yy",},
+    {"name":"spr_pizzamancer","order":17,"path":"sprites/spr_pizzamancer/spr_pizzamancer.yy",},
   ],
 }

@@ -5,7 +5,7 @@ if keyboard_check(ord("R")) {
 	room_restart()
 	game_restart()
 }
-show_debug_message("working_directory");
+show_debug_message(working_directory);
 move = key_right - key_left
 switch state
 {

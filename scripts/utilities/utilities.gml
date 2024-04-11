@@ -21,8 +21,9 @@ function draw_reset() {
 	draw_set_alpha(1)
 	draw_set_color(c_white)
 }
-function instance_create(x, y, obj) {
-	instance_create_depth(x, y, -1000, obj)
+function instance_create(x, y, obj) 
+{
+	return instance_create_depth(x, y, -1, obj)
 }
 function set_spr(sprite) {
 	if !is_string(sprite)

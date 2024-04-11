@@ -32,8 +32,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"Sprite32",
-    "path":"sprites/Sprite32/Sprite32.yy",
+    "name":"spr_pizzamancer",
+    "path":"sprites/spr_pizzamancer/spr_pizzamancer.yy",
   },
   "spriteMaskId":null,
   "visible":true,
