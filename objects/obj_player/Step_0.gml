@@ -13,4 +13,17 @@ switch state {
 	case "mach3": scr_maurice_mach3() break
 	case "nickel": scr_maurice_nickel() break
 }
+if ((y > (room_height + 300) || y < -800))
+{
+		visible = true;
+		state = "normal";
+		visible = false;
+		hsp = 0;
+		vsp = 0;
+		with (instance_create(x, y + 540, obj_technicaldifficulty))
+		{
+		sprite = choose(spr_technicaldifficulty1, spr_technicaldifficulty2);
+		vsp = 10;
+		}
+}
 scr_characterspr()

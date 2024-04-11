@@ -3,8 +3,8 @@
   "%Name":"spr_tvdefault",
   "bboxMode":0,
   "bbox_bottom":167,
-  "bbox_left":414,
-  "bbox_right":959,
+  "bbox_left":0,
+  "bbox_right":233,
   "bbox_top":0,
   "collisionKind":1,
   "collisionTolerance":0,
@@ -16,7 +16,7 @@
   ],
   "gridX":0,
   "gridY":0,
-  "height":540,
+  "height":168,
   "HTile":false,
   "layers":[
     {"$GMImageLayer":"","%Name":"63663a58-1f12-4a25-927b-1ac9c2e1bac0","blendMode":0,"displayName":"default","isLocked":false,"name":"63663a58-1f12-4a25-927b-1ac9c2e1bac0","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
@@ -86,5 +86,5 @@
   },
   "type":0,
   "VTile":false,
-  "width":960,
+  "width":234,
 }

@@ -9,3 +9,4 @@ censormode = false
 character = "M"
 image_speed = 0.4 
 scr_characterspr()
+depth = -100

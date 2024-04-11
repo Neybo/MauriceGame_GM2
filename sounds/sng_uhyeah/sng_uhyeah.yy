@@ -9,7 +9,7 @@
   "bitRate":128,
   "compression":0,
   "conversionMode":0,
-  "duration":161.72699,
+  "duration":348.06082,
   "name":"sng_uhyeah",
   "parent":{
     "name":"Sounds",
@@ -19,7 +19,7 @@
   "resourceType":"GMSound",
   "resourceVersion":"2.0",
   "sampleRate":44100,
-  "soundFile":"sng_uhyeah.ogg",
+  "soundFile":"sng_uhyeah.mp3",
   "type":0,
   "volume":1.0,
 }

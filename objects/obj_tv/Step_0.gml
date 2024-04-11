@@ -21,9 +21,8 @@ if (global.seconds > 59)
     global.minutes += 1
     global.seconds -= 59
 }
-if (global.seconds <= 0 && global.minutes <= 0 && ded == 0)
+if (global.seconds <= 0 && global.minutes <= 0)
 {
     alarm[1] = -1
-    audio_stop_all()
-    ded = 1
 }
+

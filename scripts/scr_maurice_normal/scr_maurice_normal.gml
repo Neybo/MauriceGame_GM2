@@ -5,7 +5,8 @@ image_speed = 0.4
 		hsp = xscale * movespeed
 		if move != 0 {
 			xscale = move
-			movespeed = 5
+			movespeed = 6
+			
 			set_spr(spr_move)
 		} else {
 			movespeed = 0

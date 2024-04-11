@@ -2,5 +2,5 @@ global.truefont = font_add_sprite_ext(spr_truefont, "ABCDEFGHIJKLMNÑOPQRSTUVWXY
 global.bigfont = font_add_sprite_ext(spr_font, "ABCDEFGHIJKLMNÑOPQRSTUVWXYZ!¡¿?.1234567890:ÁÄÃÀÂÉÈÊËÍÎÏÓÖÕÔÚÙÛÜÇ", true, 0)
 global.panic = false
 audio_play_sound(sng_uhyeah,1,true)
-global.seconds = 00
-global.minutes = 3
+global.seconds = 10
+global.minutes = 0
