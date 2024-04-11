@@ -5,9 +5,7 @@ if keyboard_check(ord("R")) {
 	room_restart()
 	game_restart()
 }
-ini_open("saveData.ini")
-ini_write_real("General", "SKIN", 1)
-ini_close();
+show_debug_message("working_directory");
 move = key_right - key_left
 switch state
 {
