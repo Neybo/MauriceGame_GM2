@@ -6,18 +6,6 @@ else
     image_speed = 0
     image_index = 0
 }
-if (level == "Torment")
-{
-    if (distance_to_object(obj_player) < 50)
-    {
-        with (obj_tv)
-        {
-            message = "FREAKY"
-            showtext = 1
-            alarm[0] = 2
-        }
-    }
-}
 if (level == "medieval")
 {
     if (distance_to_object(obj_player) < 50)
@@ -29,6 +17,13 @@ if (level == "medieval")
             alarm[0] = 2
         }
     }
+    var fadeRange = 100
+    var fadeThresh = 64
+    var playerDis = distance_to_object(obj_player)
+    bgalpha = (((fadeThresh + fadeRange) - playerDis) / fadeRange)
+    var lay_id = layer_get_id("Backgrounds_3")
+    var back_id = layer_background_get_id(lay_id)
+    layer_background_alpha(back_id, bgalpha)
 }
 if (level == "ruin")
 {
@@ -41,6 +36,13 @@ if (level == "ruin")
             alarm[0] = 2
         }
     }
+    var fadeRange = 100
+    var fadeThresh = 64
+    var playerDis = distance_to_object(obj_player)
+    bgalpha = (((fadeThresh + fadeRange) - playerDis) / fadeRange)
+    var lay_id = layer_get_id("Backgrounds_4")
+    var back_id = layer_background_get_id(lay_id)
+    layer_background_alpha(back_id, bgalpha)
 }
 if (level == "dungeon")
 {
@@ -53,6 +55,14 @@ if (level == "dungeon")
             alarm[0] = 2
         }
     }
+
+    var fadeRange = 100
+    var fadeThresh = 64
+    var playerDis = distance_to_object(obj_player)
+    bgalpha = (((fadeThresh + fadeRange) - playerDis) / fadeRange)
+    var lay_id = layer_get_id("Backgrounds_2")
+    var back_id = layer_background_get_id(lay_id)
+    layer_background_alpha(back_id, bgalpha)
 }
 if (level == "snickchallenge")
 {
@@ -65,4 +75,11 @@ if (level == "snickchallenge")
             alarm[0] = 2
         }
     }
+    var fadeRange = 100
+    var fadeThresh = 64
+    var playerDis = distance_to_object(obj_player)
+    bgalpha = (((fadeThresh + fadeRange) - playerDis) / fadeRange)
+    var lay_id = layer_get_id("Backgrounds_5")
+    var back_id = layer_background_get_id(lay_id)
+    layer_background_alpha(back_id, bgalpha)
 }

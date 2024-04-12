@@ -1,1 +1,0 @@
-audio_play_sound(sng_uhyeah,1,true)

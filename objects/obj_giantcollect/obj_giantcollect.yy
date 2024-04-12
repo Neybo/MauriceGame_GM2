@@ -32,12 +32,12 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"Sprite26",
-    "path":"sprites/Sprite26/Sprite26.yy",
+    "name":"spr_bigfuckingthing",
+    "path":"sprites/spr_bigfuckingthing/spr_bigfuckingthing.yy",
   },
   "spriteMaskId":{
-    "name":"Sprite26",
-    "path":"sprites/Sprite26/Sprite26.yy",
+    "name":"spr_bigfuckingthing",
+    "path":"sprites/spr_bigfuckingthing/spr_bigfuckingthing.yy",
   },
   "visible":true,
 }

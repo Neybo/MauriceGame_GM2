@@ -17,6 +17,8 @@ debug = false;
 censormode = false;
 state = states.normal;
 character = "M";
+target_door = "A"
+target_room = noone
 image_speed = 0.4;
 scr_characterspr()
 depth = -100;

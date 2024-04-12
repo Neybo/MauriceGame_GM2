@@ -1,4 +1,4 @@
-sprite_index = choose(Sprite21, Sprite22, Sprite23, Sprite24, Sprite25);
+sprite_index = choose(spr_baconcollect, spr_fishcollect, spr_banancollect, spr_yolkcollect, spr_shrimpcollect);
 image_speed = 0.35;
 global.collected = false;
 depth = 11;

@@ -23,7 +23,7 @@
   ],
   "name":"spr_doorD",
   "nineSlice":null,
-  "origin":0,
+  "origin":1,
   "parent":{
     "name":"Doors",
     "path":"folders/Sprites/Warps/Doors.yy",
@@ -75,7 +75,7 @@
     ],
     "visibleRange":null,
     "volume":1.0,
-    "xorigin":0,
+    "xorigin":16,
     "yorigin":0,
   },
   "swatchColours":null,

@@ -1,0 +1,1 @@
+target_room = credit_room

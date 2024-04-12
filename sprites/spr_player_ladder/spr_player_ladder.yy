@@ -25,8 +25,8 @@
   "nineSlice":null,
   "origin":4,
   "parent":{
-    "name":"Peppino",
-    "path":"folders/Sprites/Player/Peppino.yy",
+    "name":"MauriceGame_GM2",
+    "path":"MauriceGame_GM2.yyp",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",
