@@ -21,7 +21,8 @@ else if (key_jump2 && show)
 }
 if (show)
 {
-	draw_set_color(c_black);
-	draw_text(10, 520, "Press Z to skip.");
+	draw_set_font(global.bigfont)
+	draw_set_color(c_white);
+	draw_text(10, 520, "PRESS Z TO SKIP.");
 	draw_reset();
 }

@@ -97,7 +97,6 @@
     {"name":"obj_tauntaftereffectspawner","order":46,"path":"objects/obj_tauntaftereffectspawner/obj_tauntaftereffectspawner.yy",},
     {"name":"obj_transfotip","order":4,"path":"objects/obj_transfotip/obj_transfotip.yy",},
     {"name":"obj_tv","order":15,"path":"objects/obj_tv/obj_tv.yy",},
-    {"name":"rm_blank","order":1,"path":"rooms/rm_blank/rm_blank.yy",},
     {"name":"rm_intro","order":2,"path":"rooms/rm_intro/rm_intro.yy",},
     {"name":"__scribble_class_event","order":1,"path":"scripts/__scribble_class_event/__scribble_class_event.yy",},
     {"name":"__scribble_class_font","order":2,"path":"scripts/__scribble_class_font/__scribble_class_font.yy",},
