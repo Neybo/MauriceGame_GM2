@@ -35,5 +35,5 @@
     "path":"sprites/spr_unownSolid/spr_unownSolid.yy",
   },
   "spriteMaskId":null,
-  "visible":true,
+  "visible":false,
 }

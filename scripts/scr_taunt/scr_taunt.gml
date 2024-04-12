@@ -11,7 +11,9 @@ function scr_taunt()
 		saved_vsp = vsp;
 		saved_movespeed = movespeed;
 		set_spr(spr_maurice_taunt)
+		audio_play_sound(sfx_taunt,1,false)
 		image_index = irandom(image_number - 1);
+        instance_create(x, y, obj_taunteffect)
 		//scr_sound(sfx_taunt, true)
 	}
 	if (taunt_delay > 0)
