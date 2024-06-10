@@ -6,7 +6,10 @@ enum states
 	jump,
 	mach2,
 	mach3,
-	nickel
+	nickel,
+	runwall,
+	move,
+	hurt
 }
 movespeed = 6;
 grav = 0.5;

@@ -9,7 +9,7 @@
   "bitRate":128,
   "compression":0,
   "conversionMode":0,
-  "duration":109.71535,
+  "duration":113.88493,
   "name":"sng_uhyeah",
   "parent":{
     "name":"Sounds",
@@ -21,5 +21,5 @@
   "sampleRate":44100,
   "soundFile":"sng_uhyeah.ogg",
   "type":0,
-  "volume":0.2,
+  "volume":1.0,
 }

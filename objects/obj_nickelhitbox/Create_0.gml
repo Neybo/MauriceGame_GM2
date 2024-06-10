@@ -1,1 +1,1 @@
-image_xscale = obj_player.xscale
+image_xscale = obj_player.image_xscale

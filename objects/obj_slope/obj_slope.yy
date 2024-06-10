@@ -35,5 +35,5 @@
     "path":"sprites/spr_unownSlope/spr_unownSlope.yy",
   },
   "spriteMaskId":null,
-  "visible":true,
+  "visible":false,
 }

@@ -31,8 +31,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_nickelhitbox",
-    "path":"sprites/spr_nickelhitbox/spr_nickelhitbox.yy",
+    "name":"spr_slicerknifehitbox",
+    "path":"sprites/spr_slicerknifehitbox/spr_slicerknifehitbox.yy",
   },
   "spriteMaskId":null,
   "visible":false,

@@ -4,3 +4,5 @@ global.bigfont = font_add_sprite_ext(spr_font, "ABCDEFGHIJKLMNOPQRSTUVWXYZ!.1234
 global.panic = false;
 global.seconds = 10
 global.minutes = 0
+window_set_fullscreen(true)
+window_enable_borderless_fullscreen(true)

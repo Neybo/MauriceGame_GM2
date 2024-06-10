@@ -24,6 +24,12 @@ switch state
 	case states.nickel:
 		scr_maurice_nickel();
 		break;
+	case states.runwall:
+		scr_maurice_climbwall();
+		break;
+	case states.hurt:
+		scr_maurice_hurt();
+		break;
 }
 if ((y > (room_height + 300) || y < -800))
 {
